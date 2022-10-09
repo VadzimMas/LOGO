@@ -1,0 +1,60 @@
+@import "1-section-1.css";
+@import "2-section-2.css";
+@import "3-section-3.css";
+@import "4-section-4.css";
+@import "5-footer.css";
+
+
+:root {
+    --header-color-1: #FA0069;
+    --header-color-2: #002FD8;
+    --header-color-3: #B900FA;
+    --header-color-4: #04CA00;
+    --header-color-5: #000000;
+    --header-color-6: #ffffff;
+
+    --bg-color-1: #FFFFFF;
+    --bg-color-2: #000000;
+
+    --font-size-xxl: clamp(50px, 8.88vw, 128px);
+    --font-size-xl: clamp(35px, 6.94vw, 100px);
+    --font-size-l: clamp(30px, 4.58vw, 66px);
+    --font-size-m: clamp(25px, 2.43vw, 35px);
+    --font-size-s: clamp(20px, 1.87vw, 27px);
+    --font-size-xs: clamp(18px, 1.38vw, 20px);
+    --font-size-xxs: clamp(16px, 1.25vw, 18px);
+    scroll-behavior: smooth;
+
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    box-shadow: 0 0 100px black;
+}
+
+/* describe main property of all buttons on page */
+.btn {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    border: 3.75px solid #000;
+    border-radius: 2em;
+    text-decoration: none;
+    color: var(--header-color-5);
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    margin: 0.2em;
+}
